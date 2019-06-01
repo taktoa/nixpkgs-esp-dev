@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
 
   mforce-l32_patch = fetchurl {
     url = "https://github.com/jcmvbkbc/gcc-xtensa/commit/6b0c9f92fb8e11c6be098febb4f502f6af37cd35.patch";
-    sha256 = "0nx1vahlq71vr08c8g1s3w5kka19wss0l3i38ma4kxa2sc0jk856";
+    sha256 = "1r9c70kn5k9khg09vg93wy8gyx0gds573zxr6k9kshzaqcsvhmsv";
   };
 
   nativeBuildInputs = [
